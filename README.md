@@ -1,13 +1,5 @@
 # Studienleistung III: GraphicsApp | Breakout
 
-## Wichtige Informationen zur Bearbeitung der Aufgabe
-- [Informationen zur Entwicklungsumgebung *IntelliJ IDEA*](https://elearning.uni-regensburg.de/mod/book/view.php?id=1480675)
-- [Informationen zum Im- und Export von Projekten](https://elearning.uni-regensburg.de/mod/book/view.php?id=1480675&chapterid=51551)
-
-## Starterpaket
-
-Ein vorbereitetes Starterpaket zur selbständigen Implementierung der Aufgabe finden Sie [hier](https://github.com/OOP-Wintersemester-2021/Studienleistung-III-Breakout/archive/refs/heads/starter.zip).
-
 ## Allgemeine Hinweise zur Studienleistung
 In dieser Studienleistung werden Sie eine Programmieraufgabe lösen.
 Diese Programmieraufgaben besteht aus einem Projekt
@@ -38,11 +30,11 @@ Wir stehen Ihnen dann zeitnah zur Seite über eine Direktnachricht.
 ## Ausgangslage
 Im Rahmen dieser Aufgabe implementieren Sie das bekannte Spiel *Breakout* nach.
 
-![Breakout](docs/breakout_start.png)
+![Breakout](./docs/breakout_start.png)
 
 Die Ausgangsbedingung für diese Aufgabe ist wie folgt:
 
-Sie implementieren ausgehend von einer leeren *GraphicsApp* das Spiel *Breakout*.
+Sie implementieren ausgehend von einer "leeren" *GraphicsApp* das Spiel *Breakout*.
 
 ## Anforderungen
 
@@ -55,7 +47,7 @@ Folgende Anforderungen muss Ihre Implementierung von Breakout erfüllen:
     * Neon Gelb -> RGB: 207, 255, 4
     * Neon Blau -> RGB: 32, 210, 244
   
-    ![Breakout](docs/breakout_bricks.png)
+    ![Breakout](./docs/breakout_bricks.png)
     
     * Blöcke verschwinden, sobald die Kugel mit Ihnen kollidiert
     * Die Kugel wird bei Kollision korrekt abgelenkt
@@ -70,7 +62,7 @@ Folgende Anforderungen muss Ihre Implementierung von Breakout erfüllen:
   * Das Paddel muss mit der Kugel kollidieren können
 * Statusanzeigen
 
-  ![Breakout](docs/breakout_hud.png)
+  ![Breakout](./docs/breakout_hud.png)
   
     * drei Statusanzeigen müssen in Ihrem Breakout-Spiel vorhanden sein
     * auf der linken Seite befindet sich die Anzeige für die Anzahl der verfügbaren Kugeln, inklusive der Kugel, die bereits im Spiel ist
@@ -79,11 +71,11 @@ Folgende Anforderungen muss Ihre Implementierung von Breakout erfüllen:
 * Spielende
   * Sind keine Kugeln mehr verfügbar, endet das Spiel mit einem Game Over Screen
 
-    ![Breakout](docs/breakout_loss_screen.png)
+    ![Breakout](./docs/breakout_loss_screen.png)
 
   * Räumen SpielerInnen alle Blöcke vom Spielfeld, dann endet das Spiel mit einem Game Over Screen
 
-    ![Breakout](docs/breakout_win_screen.png)
+    ![Breakout](./docs/breakout_win_screen.png)
   
   * in beiden Fällen führt ein Klick auf Restart zum Neubeginn des Spiels
 * Allgemein
@@ -95,7 +87,7 @@ Folgende Anforderungen muss Ihre Implementierung von Breakout erfüllen:
             * der Block fügt dem aktuellen Kugelkonto eine weitere Kugel hinzu, sobald dieser abgeräumt wird
             * der Block hat eine distinkte Farbe (z.B. die gleiche Farbe, wie die Kugel, da der Block eine Extrakugel beschert)
 
-          ![Breakout](docs/breakout_extraball.png)
+          ![Breakout](./docs/breakout_extraball.png)
 
             * Fällt eine Kugel unten aus dem Spielfeld und bricht damit die aktuelle Combo, wird der Zähler der Combo wieder auf den Ursprungswert zurückgesetzt
             * Fällt eine Kugel unten aus dem Spielfeld, nachdem ein Extraballblock erstellt wurde, bleibt dieser Extraballblock erhalten, sofern kein Game Over erreicht wurde
