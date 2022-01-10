@@ -68,6 +68,9 @@ Folgende Anforderungen muss Ihre Implementierung von Breakout erfüllen:
     * auf der linken Seite befindet sich die Anzeige für die Anzahl der verfügbaren Kugeln, inklusive der Kugel, die bereits im Spiel ist
     * in der Mitte befindet sich die Anzeige für die Anzahl der noch abzuräumenden Blöcke bis ein Extraballblock erscheint
     * auf der rechten Seite befindet sich die Anzeige für die Anzahl der bisher insgesamt abgeräumten Blöcke
+* Spielanfang
+  * Ist das Spiel nicht freigegeben, liegt die Kugel mittig auf dem Paddel und bewegt sich mit dem Paddel mit
+  * Durch Drücken der Leertaste wird das Spiel freigegeben und die Kugel fängt an sich zu bewegen. Die tatsächliche   Richtung der Kugel muss um einen Standardwert zufällig, leicht schwanken. Zum Beispiel x = 5 und y = -5 als Standardwert und durch die Zufallskomponente bewegt sich die Kugel mal nach links (z.B. -4, -6) oder rechts (z.B. 6, -4).
 * Spielende
   * Sind keine Kugeln mehr verfügbar, endet das Spiel mit einem Game Over Screen
 
