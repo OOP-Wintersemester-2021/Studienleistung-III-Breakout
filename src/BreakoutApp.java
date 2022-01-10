@@ -1,7 +1,7 @@
 import de.ur.mi.oop.app.GraphicsApp;
 import de.ur.mi.oop.launcher.GraphicsAppLauncher;
 
-public class Main extends GraphicsApp {
+public class BreakoutApp extends GraphicsApp {
     @Override
     public void initialize() {
     }
