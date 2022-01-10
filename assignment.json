@@ -1,8 +1,8 @@
 {
-    "title": "Studienleistung-I",
+    "title": "Studienleistung-III",
     "abstract": "Das dritte von drei Aufgabenblätter mit dem Sie Ihre Programmierkenntnisse demonstrieren. In dieser Aufgabe implementieren Sie das bekannte Spiel 'Breakout'.",
     "hasStarterCode": true,
-    "hasSolutionCode": true,
+    "hasSolutionCode": false,
     "solutionComment": "Lösungsvorschlag zur Aufgabenstellung",
     "simpleSolutionComment": "",
     "advancedSolutionComment": "",
