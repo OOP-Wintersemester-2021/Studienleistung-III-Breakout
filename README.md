@@ -84,7 +84,7 @@ Folgende Anforderungen muss Ihre Implementierung von Breakout erfüllen:
 * Allgemein
     * Die Klasse ```BreakoutApp``` muss als Einstiegpunkt für Ihr Breakout-Spiel verwendet werden
     * Bei Start des Spiels sind *x* Kugeln verfügbar (im Beispiel hier sind drei Kugeln verfügbar).
-        * Jedes Mal, wenn eine Kugel unten aus dem Spielfeld rausfällt verlieren Spielende diese Kugel
+        * Jedes Mal, wenn eine Kugel unten aus dem Spielfeld rausfällt verlieren Spielende diese Kugel und die Kugel wird wie beim Spielstart mittig über dem Paddel platziert und bewegt sich solange mit bis das Spiel wieder freigegeben wird
         * Beim Abräumen von hinreichend vielen Blöcken (z.B. 25 bei 14x7 Blöcken) wird beim Erreichen der Combo ein neuer Block erstellt
             * der Block erscheint an einer zufällig gewählten Stelle von bereits abgeräumten Blöcke
             * der Block fügt dem aktuellen Kugelkonto eine weitere Kugel hinzu, sobald dieser abgeräumt wird
